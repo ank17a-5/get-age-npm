@@ -1,0 +1,21 @@
+{
+  "name": "get-age-npm",
+  "version": "1.0.0",
+  "description": "Get exact age (years, months, days, hours, minutes) from a date and optional time.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepare": "npm run build"
+  },
+  "keywords": ["age", "date", "time", "datetime", "utility"],
+  "author": "Rambhau Gavate",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "@types/jest": "^29.0.0"
+  }
+}
